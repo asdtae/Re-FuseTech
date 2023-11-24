@@ -19,5 +19,5 @@ Contributions are welcome! If you'd like to contribute to our blog with articles
 Have questions or suggestions? Feel free to reach out to us via [email](mailto:your@email.com) or [Twitter](https://twitter.com/YourTwitterHandle).
 
 ## License
-This project is licensed under the [MIT license]([link/to/license](https://www.mit.edu/~amini/LICENSE.md)). Feel free to share and adapt the content with attribution.
+This project is licensed under the [MIT license](https://www.mit.edu/~amini/LICENSE.md). Feel free to share and adapt the content with attribution.
 
