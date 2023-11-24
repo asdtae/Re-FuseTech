@@ -16,7 +16,7 @@ Our blog aims to raise awareness about the importance of responsibly recycling e
 Contributions are welcome! If you'd like to contribute to our blog with articles, tips, or insights, please check out our [Contribution Guidelines](link/to/contribution/guidelines).
 
 ## Get in Touch
-Have questions or suggestions? Feel free to reach out to us via [email](mailto:your@email.com) or [Twitter](https://twitter.com/YourTwitterHandle).
+Have questions or suggestions? Feel free to reach out to us via [email](refusetech0@gmail.com) or [Twitter](https://twitter.com/ReFuseTech).
 
 ## License
 This project is licensed under the [MIT license](https://www.mit.edu/~amini/LICENSE.md). Feel free to share and adapt the content with attribution.
