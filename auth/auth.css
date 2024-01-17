@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #d32222;
-    background-image: url("../assets/back.png");
+    background-color: #eee4e4;
+    /*background-image: url("../assets/back.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
@@ -77,10 +77,19 @@ body {
   }
   
   .main-content {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17%;
+    margin-bottom: auto;
     width: 60%;
-    height: 100vh;
+    height: 45vh;
+    display: flex;
+  }
+
+  .login {
+    align-self: center;
+    align-items: center;
+    background-color: #cc1c1c;
     display: flex;
   }
   
