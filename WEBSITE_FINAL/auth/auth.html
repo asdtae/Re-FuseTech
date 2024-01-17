@@ -4,30 +4,42 @@
   <meta charset="UTF-8">
   <title>Re:FuseTech</title>
   <link rel="stylesheet" href="auth.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="util.css">
 </head>
 <body>
   <nav class="navbar">
     <div class="navbar-left">
       <a href="../index.html" class="website-name">Re:FuseTech</a>
       <div class="vl"></div>
-      <a href="../blog/blog.html" class="navbar-link">Blog</a>
+      <a href="../blog/index.html" class="navbar-link">Blog</a>
     </div>
     <div class="navbar-right">
       <a href="auth.html" class="navbar-link">Log In</a>
     </div>
   </nav>
 
-  <div class="content">
-    <div class="main-content">
-      <h1 class="title">Welcome to<br>Re-FuseTech!</h1>
-      <p class="bio">Transforming Electronics through Recycling  🌱🔌<br>Here, we delve into the world of electronics recycling,<br>sustainability, and eco-friendly tech practices.</p>
-    </div>
-    <div class="main-content">
-      <h2 class="about-t">About</h2>
-      <p class="about-c">Our blog aims to raise awareness about the importance of responsibly recycling electronics. We explore innovative ways to reduce e-waste and provide insights into the impact of recycling on the environment.</p>
+  <div class="limiter">  
+    <div class="container-login100">
+      <div class="wrap-login100 p-t-50 p-b-90">
+        <form class="login100-form validate-form flex-sb flex-w">
+          <span class="login100-form-title p-b-51">Login</span>
+          <div class="wrap-input100 validate-input m-b-16" data-validate="Username is required">
+            <input class="input100" type="text" name="username" placeholder="Username">
+            <span class="focus-input100"></span>
+          </div>
+          <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required">
+            <input class="input100" type="password" name="pass" placeholder="Password">
+            <span class="focus-input100"></span>
+          </div>
+          <div class="container-login100-form-btn m-t-17">
+            <button class="login100-form-btn">Login</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 
-  <script src="index.js"></script>
+  <script src="auth.js"></script>
 </body>
 </html>

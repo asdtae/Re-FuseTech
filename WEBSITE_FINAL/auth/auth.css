@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fa2020;
-    background-image: url("./assets/back.png");
+    background-color: #eee4e4;
+    /*background-image: url("../assets/back.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
@@ -77,17 +77,26 @@ body {
   }
   
   .main-content {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17%;
+    margin-bottom: auto;
     width: 60%;
-    height: 100vh;
+    height: 45vh;
+    display: flex;
+  }
+
+  .login {
+    align-self: center;
+    align-items: center;
+    background-color: #cc1c1c;
     display: flex;
   }
   
   .title {
     font-size: 5em;
     margin: auto auto;
-    background: url("./assets/text2.png");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,7 +105,7 @@ body {
   .bio {
     font-size: 1.2em;
     margin: auto auto;
-    background: url("./assets/text2.png");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,7 +114,7 @@ body {
   .about-t {
     font-size: 5em;
     margin: auto auto;
-    background: url("./assets/text2.png");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -114,7 +123,7 @@ body {
   .about-c {
     font-size: 1.2em;
     margin: auto auto;
-    background: url("./assets/text2.png");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
