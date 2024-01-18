@@ -2,13 +2,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: rgb(2,0,36);
-    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,203,109,1) 0%, rgba(250,170,127,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,203,109,1) 0%, rgba(250,170,127,1) 100%);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,203,109,1) 0%, rgba(250,170,127,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#faaa7f",GradientType=1);
-    /*background-image: url("../assets/blogback.png");
-    /*background-repeat: no-repeat;
+    background-color: #eee4e4;
+    /*background-image: url("../assets/back.png");
+    background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -81,38 +77,44 @@ body {
   }
   
   .main-content {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17%;
+    margin-bottom: auto;
     width: 60%;
-    height: 100vh;
+    height: 45vh;
+    display: flex;
+  }
+
+  .login {
+    align-self: center;
+    align-items: center;
+    background-color: #cc1c1c;
     display: flex;
   }
   
   .title {
     font-size: 5em;
     margin: auto auto;
-    background: url("../assets/textcolor_final.jpg");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .bio {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: auto auto;
-    margin-left: 15%;
-    background: url("../assets/textcolor_dark.jpg");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .about-t {
-    font-size: 1.5em;
+    font-size: 5em;
     margin: auto auto;
-    text-align: left;
-    margin-left: 15%;
-    background: url("../assets/textcolor_dark.jpg");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -121,7 +123,7 @@ body {
   .about-c {
     font-size: 1.2em;
     margin: auto auto;
-    background: url("../assets/textcolor_final.jpg");
+    background: url("../assets/text2.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
